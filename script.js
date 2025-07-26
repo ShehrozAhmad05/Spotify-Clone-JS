@@ -161,7 +161,20 @@ async function main() {
         leftBox.style.left = "-100%";
     })
 
-    //
+    document.querySelector(".volumeImg").addEventListener("click", ()=>{
+        let volumeRange = document.querySelector(".volume-range");
+        // console.log('Volume range:', volumeRange);
+        if (volumeRange.style.display === "none" || volumeRange.style.display === "") {
+            volumeRange.style.display = "block";
+        } else {
+            volumeRange.style.display = "none";
+        } 
+    })
+
+    document.querySelector(".volume-range").addEventListener("change", (e) => {
+        currentSong.volume = e.target.value / 100;
+        
+    })
 
 }
 
