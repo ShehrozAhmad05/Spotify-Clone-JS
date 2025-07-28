@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root{
+:root {
     --op: 0;
 }
 
@@ -298,13 +298,14 @@ body {
     transform: scale(1.02);
     background-color: #252525;
     transition: transform 0.3s ease-in-out;
-    --op : 1;
+    --op: 1;
 }
 
 .card #song-thumbnail {
+    height: 62%;
     width: 100%;
     border-radius: 7px;
-    object-fit: contain;
+    object-fit: cover;
     box-shadow: 0px 4px 5px rgb(17, 17, 17)
 }
 
@@ -415,12 +416,24 @@ body {
     cursor: pointer;
 }
 
+.song-buttons img:hover {
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+}
+
+.song-progress{
+    width: 80px;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
 .volume-progress {
+    /* width: 265px; */
     padding: 0px 10px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    gap: 10px;
+    align-items: center;
+    gap: 5px;
 }
 
 .volume {
@@ -437,13 +450,19 @@ body {
 }
 
 .volume-range {
-    display: none;
+    width: 100px;
+    height: 11px;
+    cursor: pointer;
+    /* display: none;
     transform: rotate(270deg);
     position: absolute;
     top: -33px;
-    right: -22px;
+    right: -22px; */
 }
 
+.range input {
+    cursor: pointer;
+}
 
 
 
@@ -560,6 +579,9 @@ body {
         border-radius: 0px;
     }
 
+    .play-button{
+        bottom: 170px;
+    }
     .song-bar {
         flex-direction: column;
     }
@@ -570,6 +592,12 @@ body {
         font-size: 12px; */
         padding: 3px 5px;
         font-size: 15px;
+    }
+
+    .song-progress {
+        width: 100%;
+        padding: 0px 10px;
+        font-size: 12px;
     }
 
     .song-buttons {
@@ -601,11 +629,11 @@ body {
         width: 20px;
     }
 
-    .range {
+    /* .range {
         position: relative;
         top: -49px;
         right: -22px;
-    }
+    } */
 
 
 }
