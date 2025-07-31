@@ -1,0 +1,132 @@
+{
+  "albums": [
+    {
+      "folder": "Abdul Hannan",
+      "name": "Abdul Hannan",
+      "description": "Soulful melodies and heartfelt lyrics",
+      "cover": "songs/Abdul Hannan/cover.jpg",
+      "songs": [
+        "Bikhra.mp3",
+        "Iraaday.mp3",
+        "Siyah.mp3"
+      ]
+    },
+    {
+      "folder": "AP Dhillon",
+      "name": "AP Dhillon",
+      "description": "Punjabi rap and contemporary beats",
+      "cover": "songs/AP Dhillon/cover.jpg",
+      "songs": [
+        "Afsos.mp3",
+        "Brown Munde.mp3",
+        "Desires.mp3",
+        "Ma Belle.mp3",
+        "STFU.mp3",
+        "With You.mp3"
+      ]
+    },
+    {
+      "folder": "Diljit Dosanjh",
+      "name": "Diljit Dosanjh",
+      "description": "Punjabi superstar hits",
+      "cover": "songs/Diljit Dosanjh/cover.jpg",
+      "songs": [
+        "Born To Shine.mp3",
+        "G.O.A.T.mp3",
+        "Hass Hass.mp3",
+        "Khutti.mp3",
+        "Kinni Kinni.mp3",
+        "Lalkara.mp3",
+        "Lemonade.mp3",
+        "Tension.mp3"
+      ]
+    },
+    {
+      "folder": "Karan Aujla",
+      "name": "Karan Aujla",
+      "description": "Raw Punjabi rap and authentic storytelling",
+      "cover": "songs/Karan Aujla/cover.jpg",
+      "songs": [
+        "100 Million.mp3",
+        "Admirin You.mp3",
+        "At Peace.mp3",
+        "Courtside.mp3",
+        "God Damn.mp3",
+        "Mexico.mp3",
+        "ON TOP.mp3",
+        "Players.mp3",
+        "Sifar Safar.mp3",
+        "Wavy.mp3",
+        "Winning Speech.mp3"
+      ]
+    },
+    {
+      "folder": "Shubh",
+      "name": "Shubh",
+      "description": "Modern Punjabi vibes and trap influences",
+      "cover": "songs/Shubh/cover.jpg",
+      "songs": [
+        "Aura.mp3",
+        "Bandana.mp3",
+        "Buckle Up.mp3",
+        "Dior.mp3",
+        "King Shit.mp3",
+        "MVP.mp3",
+        "Safety Off.mp3",
+        "Supreme.mp3",
+        "You And Me.mp3"
+      ]
+    },
+    {
+      "folder": "Sidhu Moose Wala",
+      "name": "Sidhu Moose Wala",
+      "description": "Legendary Punjabi rapper and singer",
+      "cover": "songs/Sidhu Moose Wala/cover.jpg",
+      "songs": [
+        "295.mp3",
+        "Bitch Im Back.mp3",
+        "Game.mp3",
+        "Jatt Da Muqabla.mp3",
+        "Just Listen.mp3",
+        "Legend.mp3",
+        "Love Sick.mp3",
+        "Same Beef.mp3",
+        "Signed To God.mp3",
+        "Sohne Lagde.mp3",
+        "The Last Ride.mp3"
+      ]
+    },
+    {
+      "folder": "Talha Anjum",
+      "name": "Talha Anjum",
+      "description": "Pakistani hip-hop and conscious rap",
+      "cover": "songs/Talha Anjum/cover.jpg",
+      "songs": [
+        "100 Bars.mp3",
+        "9Mm.mp3",
+        "4AM in Karachi.mp3",
+        "Agency.mp3",
+        "Been There Done That.mp3",
+        "Departure Lane.mp3",
+        "Felony.mp3",
+        "Flex.mp3",
+        "Gumaan.mp3",
+        "Kaun Talha.mp3",
+        "Two Tone.mp3",
+        "Wife You.mp3"
+      ]
+    },
+    {
+      "folder": "Talwiinder",
+      "name": "Talwiinder",
+      "description": "Melodic Punjabi tracks",
+      "cover": "songs/Talwiinder/cover.jpg",
+      "songs": [
+        "Dhundhala.mp3",
+        "Khayaal.mp3",
+        "Pal Pal.mp3",
+        "Wishes.mp3"
+      ]
+    }
+  ]
+}
